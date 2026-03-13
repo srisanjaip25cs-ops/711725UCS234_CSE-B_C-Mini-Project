@@ -12,7 +12,6 @@ struct clientData
     double balance;       // account balance
 };                        // end structure clientData
 
-// prototypes
 unsigned int enterChoice(void);
 void textFile(FILE *readPtr);
 void updateRecord(FILE *fPtr);
